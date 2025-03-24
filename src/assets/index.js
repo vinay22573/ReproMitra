@@ -9,6 +9,12 @@ import instagramline from './instagram-line.svg'
 import linkedinfill from './linkedin-fill.svg'   
 import doctor from './Doctor.webp'
 import aiagent from './ai.png'
+import userfill from './user-fill.svg'
+import moonfill from './moon-fill.svg'
+import doctorlogo from './doctor.png'
+import paperplane from './paper-plane.svg'
+import trianglealert from './triangle-alert.svg'
+import infocircle from './info-circle.svg'
 export { 
     logo,
     homeherobackground,
@@ -20,5 +26,11 @@ export {
     instagramline,
     linkedinfill,
     doctor,
-    aiagent
+    aiagent,
+    userfill,
+    moonfill,
+    doctorlogo,
+    paperplane,
+    trianglealert,
+    infocircle
 }
