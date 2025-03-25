@@ -6,6 +6,10 @@ import Navbar from './Layout/Navbar/Navbar'
 import HomeHero from './section/HomeHero'
 import Layout from './Layout/Layout'
 import Chatbot from './section/Chatbot'
+import HealthIssues from './pages/HealthIssues'
+import HealthIssuesMain from './pages/HealthIssuesMain'
+import Disease from './pages/Disease'
+
 const route = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -13,6 +17,8 @@ const route = createBrowserRouter(
         <Route path="/" element={<HomeHero/>} />
         <Route path="/chat" element={<Chatbot/>} />
         <Route path="/about" element={<h1>About</h1>} />
+        <Route path="/health-issues" element={<HealthIssuesMain/>} />
+        <Route path="/disease" element={<Disease/>} />
       </Route>
     </>
   )
