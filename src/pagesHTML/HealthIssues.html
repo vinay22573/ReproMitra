@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Awareness Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet">
+    <script
+        src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#1B9AF5"
+        data-border-radius='medium'></script>
+</head>
+
+<body class="bg-gray-50 font-sans">
+    <!-- <nav class="bg-white shadow-sm">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">                        <img class="h-8 w-auto" src="https://ai-public.creatie.ai/gen_page/logo_placeholder.png" alt="Logo">
+                    </div>                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="!rounded-button bg-custom text-white px-4 py-2 text-sm font-medium">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </nav> -->
+
+    <main class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">Your Health, Your Awareness</h1>
+            <p class="text-xl text-gray-600">Understanding key health issues through clear visuals</p>
+        </div>
+
+        <div class="mb-12">
+            <h2 class="text-2xl font-semibold text-pink-600 mb-8">Women's Health</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src={BreastCancer}
+                        class="w-full h-48 object-cover" alt="Breast Cancer Awareness">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Breast Cancer Awareness</h3>
+                        <p class="text-gray-600 text-sm">Learn about early detection and prevention</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"> <img
+                        src={PCOS}
+                        class="w-full h-48 object-cover" alt="PCOS">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">PCOS Information</h3>
+                        <p class="text-gray-600 text-sm">Understanding hormonal balance</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src={Cervical}
+                        class="w-full h-48 object-cover" alt="Cervical Health">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Cervical Health</h3>
+                        <p class="text-gray-600 text-sm">Prevention and regular screening</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <!-- https://creatie.ai/ai/api/search-image?query=A detailed medical illustration showing bone density comparison and osteoporosis progression in bones, with clear visual indicators on a neutral background&width=400&height=300&orientation=landscape&flag=9ca214b4-42be-453a-9e4b-2c564a01db66 -->
+                    <img src={PDI} class="w-full h-48 object-cover" alt="Osteoporosis">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Osteoporosis Guide</h3>
+                        <p class="text-gray-600 text-sm">Bone health and prevention</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="text-2xl font-semibold text-custom mb-8">Men's Health</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"> <img
+                        src={PDI}
+                        class="w-full h-48 object-cover" alt="Prostate Health">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Prostate Health</h3>
+                        <p class="text-gray-600 text-sm">Early detection and screening</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src={TesticularCancer}
+                        class="w-full h-48 object-cover" alt="Testicular Cancer">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Testicular Cancer Guide</h3>
+                        <p class="text-gray-600 text-sm">Self-examination and awareness</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src={ED}
+                        class="w-full h-48 object-cover" alt="ED Awareness">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">ED Awareness</h3>
+                        <p class="text-gray-600 text-sm">Understanding causes and solutions</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src={PDI}
+                        class="w-full h-48 object-cover" alt="Peyronie's Disease">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Peyronie's Disease Info</h3>
+                        <p class="text-gray-600 text-sm">Symptoms and treatment options</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <footer class="bg-gray-900 text-white mt-16">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">About Us</h3>
+                    <p class="text-gray-400">Dedicated to providing accurate health information and raising awareness
+                        for better healthcare decisions.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Resources</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Support</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect With Us</h3>
+                    <div class="flex space-x-4"> <a href="#" class="text-gray-400 hover:text-white"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Health Awareness Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer> -->
+</body>
+
+</html>
