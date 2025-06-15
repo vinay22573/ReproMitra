@@ -44,7 +44,7 @@ ReproMitra is a modern, AI-powered web platform focused on reproductive health a
 
 ---
 
-## 📄 Why Hire Me?
+## 📄 Key Strengths Demonstrated
 - **Full-Stack Proficiency**: Demonstrated ability to build, integrate, and deploy scalable web applications end-to-end.
 - **AI & API Integration**: Experience with modern AI APIs and real-world chatbot deployment.
 - **UI/UX Focus**: Strong sense of design, accessibility, and user experience.
